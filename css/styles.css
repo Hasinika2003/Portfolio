@@ -11133,3 +11133,63 @@ h1, h2, h3, h4, h5, h6 {
 .social-link:hover {
     color: #334155 !important;
 }
+
+body {
+    position: relative;
+    background-color: #ffffff;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    z-index: -1;
+}
+body {
+    position: relative;
+    background-color: white;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    z-index: -1;
+}
+body {
+    position: relative;
+    background-color: #eef5ff;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("../assets/img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.40;
+    z-index: -1;
+}
+.cv-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.cv-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: white;
+}
